@@ -1,9 +1,33 @@
-/*!
- * Bootstrap v4.5.0 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+.icon-circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 15px;
+  width: 60px;
+  height: 60px;
+  background-color: #333;
+  color: white;
+  border-radius: 50%;
+  font-size: 28px;
+  transition: background-color 0.3s ease;
+  z-index: 99;
+  text-decoration: none;
+}
+
+.icon-circle:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.icon-circle span {
+  font-size: 24px;
+}
+
+.social {
+  margin-top: -100px;
+  gap: 10%;
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
