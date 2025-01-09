@@ -28,6 +28,12 @@
   gap: 10%;
 }
 
+.home-video {
+  width: 1000px;
+  height: 500px;
+  text-align: center;
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
